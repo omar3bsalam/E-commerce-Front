@@ -1,0 +1,9 @@
+.hero-s
+{
+    background-image: url(../assets/pexels-karola-g-5632371.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
