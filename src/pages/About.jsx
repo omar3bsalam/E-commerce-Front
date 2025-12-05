@@ -7,7 +7,9 @@ const About = () => {
         <div className="col-lg-8 mx-auto">
           <h1 className="text-center mb-5">About Us</h1>
           <p className="lead text-center mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, dolores.
+            Our platform offers an easy and fast shopping experience,
+             and we guarantee that our products will reach you with high 
+             quality and respectful service that will always satisfy you
           </p>
 
           <div className="row text-center mb-5">

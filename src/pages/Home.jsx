@@ -43,7 +43,8 @@ const Home = () => {
             <div className="col-lg-6">
               <h1 className="display-4 fw-bold mb-4">Welcome to EliteStore</h1>
               <p className="lead mb-4">
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, alias quibusdam.
+               Discover the best products at great prices and enjoy
+                an easy and fast shopping experience that suits your lifestyle.
               </p>
               <div className="d-flex gap-3 flex-wrap">
                 <Link to="/products" className="btn btn-light btn-lg px-4">
