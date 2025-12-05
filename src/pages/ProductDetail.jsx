@@ -187,7 +187,6 @@ const ProductDetail = () => {
 
             <p className="mb-4 fs-6">{product.description}</p>
 
-            {/* Inventory Status */}
             <div className="mb-4">
               {product.inventory.quantity > 0 ? (
                 <span className="text-success fs-6"> In Stock ({product.inventory.quantity} available)</span>
@@ -198,7 +197,6 @@ const ProductDetail = () => {
               )}
             </div>
 
-            {/* Quantity Selector */}
             <div className="row mb-4">
               <div className="col-md-4">
                 <label htmlFor="quantity" className="form-label fw-semibold">Quantity</label>
@@ -218,14 +216,13 @@ const ProductDetail = () => {
               </div>
             </div>
 
-            {/* Action Buttons */}
             <div className="d-grid gap-2 d-md-flex mb-4">
               <button 
                 className="btn btn-primary btn-lg flex-fill me-md-2"
                 onClick={handleBuyNow}
                 disabled={!product.inventory.quantity && !product.inventory.allowOutOfStockPurchase}
               >
-                🛒 Buy Now
+                 Buy Now
               </button>
               
               <button 
@@ -243,7 +240,6 @@ const ProductDetail = () => {
               </div>
             )}
 
-            {/* Product Features */}
             <div className="mt-auto">
               <div className="row g-3">
                 <div className="col-6">

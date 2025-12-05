@@ -238,7 +238,7 @@ const Home = () => {
             <div className="col-md-4 text-center">
               <div className="feature-icon bg-warning rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
                    style={{width: '80px', height: '80px'}}>
-                <span className="text-white fs-2">↩</span>
+                <span className="text-white fs-2"></span>
               </div>
               <h4>Easy Returns</h4>
               <p className="text-muted">30-day return policy. No questions asked for all our products.</p>
