@@ -31,9 +31,8 @@ const About = () => {
             <div className="card-body">
               <h4 className="card-title">Our Mission</h4>
               <p className="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt asperiores praesentium consequatur accusantium expedita
-                nisi nulla sunt quo nam vero?
+                Our goal is for you to find everything you need in one place… with high quality,
+                 a reasonable price, and an unforgettable shopping experience.
               </p>
             </div>
           </div>

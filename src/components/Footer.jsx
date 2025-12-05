@@ -8,7 +8,9 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4 mb-4">
             <h5>About Us</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, perspiciatis?</p>
+            <p>Our platform offers an easy and fast shopping experience,
+             and we guarantee that our products will reach you with high 
+             quality and respectful service that will always satisfy you</p>
           </div>
           <div className="col-md-2 mb-4">
             <h5>Quick Links</h5>
